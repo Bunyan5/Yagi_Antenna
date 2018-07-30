@@ -27,8 +27,6 @@ PW: 0
 
 ** Sources
 
-A1: 0 : Driver.Wire1.Port1 : 0 :  :  : 1 : 0 :  :  :  : 50   ** VoltageSource1
-
 
 ** StandardConfiguration1
 
@@ -49,4 +47,4 @@ FF: 1 : 37 : 73 : 0 : 0 : 0 : 0 : 5 : 5 :  :  : 0   ** FarField1
 ** End of file
 EN
 
-** CADFEKO Checksum: 06c7c53b1cc3f6e203f533d19dc5a59f
+** CADFEKO Checksum: 52dd0443107d2608befae5a50b45b4c3
