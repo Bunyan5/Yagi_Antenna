@@ -1,0 +1,1 @@
+-n 4 -localonly -envall -mapall "C:\Program Files\Altair\2018-edu\feko\bin\feko_mkl.csv.impi.exe" "Yagi_6_element_V0_0" "--run-from-gui"
