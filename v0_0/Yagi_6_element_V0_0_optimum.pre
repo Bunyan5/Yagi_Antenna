@@ -6,7 +6,7 @@
 ** --- End CADFEKO checksum ignore
 
 ** Import mesh model
-IN   8 1055  "Yagi_6_element_V0_0.cfm"
+IN   8 1055  "Yagi_6_element_V0_0_optimum.cfm"
 
 
 ** FEKO solution parameters
@@ -27,8 +27,7 @@ PW: 0
 
 ** Sources
 
-!!print_error "The port 'Port_Driven_element' does not have a mesh instance"
-!!exit
+AE: 0 : Union1.Face3_1 : Union1.Face3_2 : 0 : 1 : 1 : 0 : 50   ** VoltageSource_Driven
 
 
 ** StandardConfiguration1
@@ -50,4 +49,4 @@ FF: 1 : 37 : 73 : 0 : 0 : 0 : 0 : 5 : 5 :  :  : 0   ** FarField1
 ** End of file
 EN
 
-** CADFEKO Checksum: 16f8f2416b59e96af7e8ebeb3523691a
+** CADFEKO Checksum: b7fea7d879d4287ccf448e8d455d3fc8
