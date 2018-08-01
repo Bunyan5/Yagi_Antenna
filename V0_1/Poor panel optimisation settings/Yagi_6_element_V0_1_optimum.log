@@ -1,0 +1,84 @@
+================  L O G - FILE - OPTFEKO  ================
+
+Version: 2018-10 of 2018-02-06
+Date: 2018-08-01 10:01:38
+File: Yagi_6_element_V0_1_optimum
+
+OPTIMISATION WITH FEKO
+
+================= Optimisation variables =================
+
+No.  Name                                  Beg.value          Minimum          Maximum
+  1 panel_reflector_spacing          1.809090000e-02  5.168840000e-03  2.584420000e-02
+  2 panel_reflector_height           3.101300000e-02  1.033770000e-02  2.067530000e-01
+  3 panel_reflector_length           1.033770000e-01  1.033770000e-02  2.067530000e-01
+
+
+
+=================== Optimisation goals ===================
+
+No.  Name                            Expression
+  1 panel_reflector_spacing.goals.maximise_directivity  max(total(direct(farfield(yagi_farfield))))
+
+
+======== Optimisation method: SIMPLEX NELDER-MEAD ========
+
+Maximum number of iterations:                      1000
+Base of the simplex:                    1.500000000e-01
+Reduction factor of the base:           5.000000000e-01
+Termination at minimal base:            5.000000000e-03
+Termination at standard deviation:      1.000000000e-02
+Standard reflection coefficient (R):    1.000000000e+00
+Contraction coefficient (-C, +C):       5.000000000e-01
+Expansion coefficient (E):              2.000000000e+00
+
+
+=========== SIMPLEX NELDER-MEAD: Intermediate results ===========
+
+ No.    panel_reflector  panel_reflector  panel_reflector  panel_reflector  Global goal      Global best aim  Operation
+     1  1.809090000e-02  3.101300000e-02  1.033770000e-01  8.297471361e+00 -8.297471361e+00 -8.297471361e+00
+     2  2.101483745e-02  3.795732953e-02  1.103213295e-01  6.580146583e+00 -6.580146583e+00                 
+     3  1.882188436e-02  5.879031811e-02  1.103213295e-01  7.539747246e+00 -7.539747246e+00                 
+     4  1.882188436e-02  3.795732953e-02  1.311543181e-01  7.452064530e+00 -7.452064530e+00                 
+     5  1.614160837e-02  4.721643557e-02  1.195804356e-01  8.969377155e+00 -8.969377155e+00 -8.969377155e+00           R
+     6  1.370499382e-02  5.184598858e-02  1.242099886e-01  1.070546706e+01 -1.070546706e+01 -1.070546706e+01   E success
+     7  1.313645043e-02  2.792663132e-02  1.211236199e-01  1.076678374e+01 -1.076678374e+01 -1.076678374e+01           R
+     8  1.029373346e-02  1.249478793e-02  1.265247651e-01  1.057343360e+01 -1.057343360e+01                    E failure
+     9  1.056446841e-02  5.364637031e-02  1.398990294e-01  1.258887862e+01 -1.258887862e+01 -1.258887862e+01           R
+    10  6.801252616e-03  6.496305547e-02  1.581600441e-01  1.438056113e+01 -1.438056113e+01 -1.438056113e+01   E success
+    11  6.629787148e-03  4.584471615e-02  1.552451403e-01  1.389579053e+01 -1.389579053e+01                            R
+    12  2.860555022e-03  8.170946330e-02  1.810791892e-01  Parameter set does not adhere to boundary constraints. No goal function values were computed.
+    13  1.056747658e-02  4.137233932e-02  1.361125122e-01  1.221457980e+01 -1.221457980e+01                   -C success
+    14  5.429528873e-03  6.826375531e-02  1.660902969e-01  1.484692411e+01 -1.484692411e+01 -1.484692411e+01           R
+    15  2.860555022e-03  8.170946330e-02  1.810791892e-01  Parameter set does not adhere to boundary constraints. No goal function values were computed.
+    16  2.009244015e-03  6.573464764e-02  1.797646248e-01  Parameter set does not adhere to boundary constraints. No goal function values were computed.
+    17  8.425662312e-03  5.666843964e-02  1.498654282e-01  1.353236322e+01 -1.353236322e+01                   -C success
+    18  4.148050114e-03  6.271257831e-02  1.697982259e-01  Parameter set does not adhere to boundary constraints. No goal function values were computed.
+    19  7.356259262e-03  5.817947431e-02  1.548486277e-01  1.378336733e+01 -1.378336733e+01                   -C success
+    20  5.217453163e-03  6.120154364e-02  1.648150265e-01  1.392530689e+01 -1.392530689e+01                            R
+    21  5.002369287e-03  8.377418679e-02  1.707984380e-01  Parameter set does not adhere to boundary constraints. No goal function values were computed.
+    22  6.222932683e-03  5.532708381e-02  1.591334647e-01  1.377663309e+01 -1.377663309e+01                   -C failure
+    23  6.788697416e-03  7.149177041e-02  1.693183120e-01  1.568355325e+01 -1.568355325e+01 -1.568355325e+01
+    24  5.769321009e-03  8.117581570e-02  1.693183120e-01  1.682276652e+01 -1.682276652e+01 -1.682276652e+01
+    25  5.769321009e-03  7.149177041e-02  1.790023573e-01  1.577583883e+01 -1.577583883e+01                 
+    26  6.788697416e-03  8.117581570e-02  1.790023573e-01  1.694963663e+01 -1.694963663e+01 -1.694963663e+01           R
+    27  7.468281687e-03  8.763184590e-02  1.854583875e-01  1.701328189e+01 -1.701328189e+01 -1.701328189e+01   E success
+    28  7.581545732e-03  9.516388112e-02  1.768503472e-01  1.714424220e+01 -1.714424220e+01 -1.714424220e+01           R
+    29  8.487658093e-03  1.069999365e-01  1.757743422e-01  1.694830015e+01 -1.694830015e+01                    E failure
+    30  8.789695547e-03  9.480521278e-02  1.915557493e-01  1.644128473e+01 -1.644128473e+01                            R
+    31  6.524414643e-03  8.458316497e-02  1.748776713e-01  1.711115340e+01 -1.711115340e+01                   -C success
+    32  7.594130626e-03  9.707677896e-02  1.791219134e-01  1.721338951e+01 -1.721338951e+01 -1.721338951e+01           R
+    33  7.996847231e-03  1.050272606e-01  1.791816915e-01  1.724801449e+01 -1.724801449e+01 -1.724801449e+01   E success
+
+
+================= SIMPLEX NELDER-MEAD: Finished =================
+
+Optimisation finished (Standard deviation small enough:   6.260123701e-02)
+
+Optimum found for these parameters:
+  panel_reflector_spacing        =   7.996847231e-03
+  panel_reflector_height         =   1.050272606e-01
+  panel_reflector_length         =   1.791816915e-01
+
+Optimum aim function value (at no. 33):  -1.724801449e+01
+No. of the last analysis: 33

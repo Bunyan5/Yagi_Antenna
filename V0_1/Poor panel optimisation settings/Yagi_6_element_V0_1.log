@@ -1,0 +1,55 @@
+================  L O G - FILE - OPTFEKO  ================
+
+Version: 2018-10 of 2018-02-06
+Date: 2018-08-01 09:30:16
+File: Yagi_6_element_V0_1
+
+OPTIMISATION WITH FEKO
+
+================= Optimisation variables =================
+
+No.  Name                                  Beg.value          Minimum          Maximum
+  1 panel_reflector_spacing          1.809090000e-02  5.168840000e-03  2.584420000e-02
+  2 panel_reflector_height           3.101300000e-02  1.033770000e-02  2.067530000e-01
+  3 panel_reflector_length           1.033770000e-01  1.033770000e-02  2.067530000e-01
+
+
+
+=================== Optimisation goals ===================
+
+No.  Name                            Expression
+  1 panel_reflector_spacing.goals.maximise_directivity  total(direct(farfield(yagi_farfield)))
+
+
+======== Optimisation method: SIMPLEX NELDER-MEAD ========
+
+Maximum number of iterations:                      1000
+Base of the simplex:                    1.500000000e-01
+Reduction factor of the base:           5.000000000e-01
+Termination at minimal base:            5.000000000e-03
+Termination at standard deviation:      1.000000000e-02
+Standard reflection coefficient (R):    1.000000000e+00
+Contraction coefficient (-C, +C):       5.000000000e-01
+Expansion coefficient (E):              2.000000000e+00
+
+
+=========== SIMPLEX NELDER-MEAD: Intermediate results ===========
+
+ No.    panel_reflector  panel_reflector  panel_reflector  panel_reflector  Global goal      Global best aim  Operation
+     1  1.809090000e-02  3.101300000e-02  1.033770000e-01 composite goal   -1.980789315e+03 -1.980789315e+03
+     2  2.101483745e-02  3.795732953e-02  1.103213295e-01 composite goal   -1.970322864e+03                 
+     3  1.882188436e-02  5.879031811e-02  1.103213295e-01 composite goal   -1.938486214e+03                 
+     4  1.882188436e-02  3.795732953e-02  1.311543181e-01 composite goal   -1.960138283e+03                 
+
+
+================= SIMPLEX NELDER-MEAD: Finished =================
+
+Optimisation finished (Standard deviation small enough:   1.805471778e+01)
+
+Optimum found for these parameters:
+  panel_reflector_spacing        =   1.809090000e-02
+  panel_reflector_height         =   3.101300000e-02
+  panel_reflector_length         =   1.033770000e-01
+
+Optimum aim function value (at no. 1):  -1.980789315e+03
+No. of the last analysis: 4
