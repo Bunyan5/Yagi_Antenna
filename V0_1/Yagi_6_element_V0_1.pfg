@@ -1,0 +1,46 @@
+<rawDataGraph autoUAxis="1" vAxisFont="1" autoVAxis="1" footerFont="1" titleText="Optimisation Progress" legendFont="1" titleFont="1" windowState="maximized" uGridLabelFont="1" vGridLabelFont="1" windowSize="380,380" version="1" uAxisText="Iteration number" vAxisText="" footerText="2018-08-01 : Yagi_6_element_V0_1" vAxisUnits="" uAutoScale="1" uAxisFont="1" uAxisUnits="" uPrecision="" vPrecision="2">
+ <valueSeries autoLegend="0" label="reflector_spacing" legend="reflector_spacing" lineColour="0" markerColour="0" markerSymbol="-1" unwrap="0" lineWeight="1" smithMode="0" leftOffset="0" bottomFactor="1" dataScale="0" smithChartOffset="0" lineStyle="0" isdB="0" dbFactor="10" markerSkip="0" bottomOffset="0" independentVar="9" leftFactor="1" visible="1">
+  <coord0>1.000000000000E+00 1.292210000000E-02</coord0>
+  <coord1>2.000000000000E+00 1.441991191661E-02</coord1>
+  <coord2>3.000000000000E+00 1.332343749347E-02</coord2>
+  <coord3>4.000000000000E+00 1.482124941008E-02</coord3>
+  <coord4>5.000000000000E+00 1.577082411512E-02</coord4>
+  <coord5>6.000000000000E+00 1.372477498694E-02</coord5>
+  <coord6>7.000000000000E+00 1.337720652210E-02</coord6>
+  <coord7>8.000000000000E+00 1.522258690355E-02</coord7>
+  <coord8>9.000000000000E+00 1.617216160859E-02</coord8>
+ </valueSeries>
+ <valueSeries autoLegend="0" label="director_spacing" legend="director_spacing" lineColour="1" markerColour="0" markerSymbol="-1" unwrap="0" lineWeight="1" smithMode="0" leftOffset="0" bottomFactor="1" dataScale="0" smithChartOffset="0" lineStyle="0" isdB="0" dbFactor="10" markerSkip="0" bottomOffset="0" independentVar="9" leftFactor="1" visible="1">
+  <coord0>1.000000000000E+00 1.292210000000E-02</coord0>
+  <coord1>2.000000000000E+00 1.372477653985E-02</coord1>
+  <coord2>3.000000000000E+00 1.591772962877E-02</coord2>
+  <coord3>4.000000000000E+00 1.672040616863E-02</coord3>
+  <coord4>5.000000000000E+00 1.861955925294E-02</coord4>
+  <coord5>6.000000000000E+00 1.891335925755E-02</coord5>
+  <coord6>7.000000000000E+00 2.150765061639E-02</coord6>
+  <coord7>8.000000000000E+00 1.971603579740E-02</coord7>
+  <coord8>9.000000000000E+00 2.161518888171E-02</coord8>
+ </valueSeries>
+ <valueSeries autoLegend="0" label="panel_reflector_spacing.goals.maximise_gain" legend="panel_reflector_spacing.goals.maximise_gain" lineColour="2" markerColour="0" markerSymbol="-1" unwrap="0" lineWeight="1" smithMode="0" leftOffset="0" bottomFactor="1" dataScale="0" smithChartOffset="0" lineStyle="0" isdB="0" dbFactor="10" markerSkip="0" bottomOffset="0" independentVar="9" leftFactor="1" visible="1">
+  <coord0>1.000000000000E+00 N/A</coord0>
+  <coord1>2.000000000000E+00 N/A</coord1>
+  <coord2>3.000000000000E+00 N/A</coord2>
+  <coord3>4.000000000000E+00 N/A</coord3>
+  <coord4>5.000000000000E+00 N/A</coord4>
+  <coord5>6.000000000000E+00 N/A</coord5>
+  <coord6>7.000000000000E+00 N/A</coord6>
+  <coord7>8.000000000000E+00 N/A</coord7>
+  <coord8>9.000000000000E+00 N/A</coord8>
+ </valueSeries>
+ <valueSeries autoLegend="0" label="global goal" legend="global goal" lineColour="3" markerColour="0" markerSymbol="-1" unwrap="0" lineWeight="1" smithMode="0" leftOffset="0" bottomFactor="1" dataScale="0" smithChartOffset="0" lineStyle="0" isdB="0" dbFactor="10" markerSkip="0" bottomOffset="0" independentVar="9" leftFactor="1" visible="1">
+  <coord0>1.000000000000E+00 -1.934228330515E+03</coord0>
+  <coord1>2.000000000000E+00 -1.942594212753E+03</coord1>
+  <coord2>3.000000000000E+00 -1.971733334918E+03</coord2>
+  <coord3>4.000000000000E+00 -2.041839929493E+03</coord3>
+  <coord4>5.000000000000E+00 N/A</coord4>
+  <coord5>6.000000000000E+00 -2.055624821581E+03</coord5>
+  <coord6>7.000000000000E+00 -2.049173557437E+03</coord6>
+  <coord7>8.000000000000E+00 -2.058746621657E+03</coord7>
+  <coord8>9.000000000000E+00 N/A</coord8>
+ </valueSeries>
+</rawDataGraph>
