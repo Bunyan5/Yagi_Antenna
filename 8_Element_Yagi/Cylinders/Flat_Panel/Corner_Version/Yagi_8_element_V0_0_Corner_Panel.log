@@ -1,0 +1,70 @@
+================  L O G - FILE - OPTFEKO  ================
+
+Version: 2018.0.2-10 of 2018-02-06
+Date: 2018-08-10 15:31:41
+File: Yagi_8_element_V0_0_Corner_Panel
+
+OPTIMISATION WITH FEKO
+
+================= Optimisation variables =================
+
+No.  Name                                  Beg.value          Minimum          Maximum
+  1 panel_reflector_spacing          3.445890000e-02  4.800000000e-03  5.168840000e-02
+  2 panel_reflector_height           2.567880000e-02  2.139900000e-02  4.279800000e-02
+  3 panel_reflector_length           6.891780000e-02  4.800000000e-03  2.067530000e-01
+
+
+
+=================== Optimisation goals ===================
+
+No.  Name                            Expression
+  1 panel_reflector_parameters.goals.maximise_directivity  max(total(direct(farfield(yagi_farfield))))
+
+
+======== Optimisation method: SIMPLEX NELDER-MEAD ========
+
+Maximum number of iterations:                      1000
+Base of the simplex:                    1.500000000e-01
+Reduction factor of the base:           5.000000000e-01
+Termination at minimal base:            5.000000000e-03
+Termination at standard deviation:      1.000000000e-02
+Standard reflection coefficient (R):    1.000000000e+00
+Contraction coefficient (-C, +C):       5.000000000e-01
+Expansion coefficient (E):              2.000000000e+00
+
+
+=========== SIMPLEX NELDER-MEAD: Intermediate results ===========
+
+ No.    panel_reflector  panel_reflector  panel_reflector  panel_reflector  Global goal      Global best aim  Operation
+     1  3.445890000e-02  2.567880000e-02  6.891780000e-02  1.776594714e+01 -1.776594714e+01 -1.776594714e+01
+     2  4.108992112e-02  2.643536890e-02  7.605791679e-02  1.454587970e+01 -1.454587970e+01                 
+     3  3.611665528e-02  2.870507560e-02  7.605791679e-02  1.739844546e+01 -1.739844546e+01                 
+     4  3.611665528e-02  2.643536890e-02  9.747826716e-02  1.556830814e+01 -1.556830814e+01                 
+     5  3.003821925e-02  2.744412743e-02  8.557807251e-02  1.784054431e+01 -1.784054431e+01 -1.784054431e+01           R
+     6  2.451236832e-02  2.794850670e-02  9.033815037e-02  1.751360348e+01 -1.751360348e+01                    E failure
+     7  3.095919441e-02  2.811663312e-02  5.622425904e-02  1.870206308e+01 -1.870206308e+01 -1.870206308e+01           R
+     8  2.838046397e-02  2.895726524e-02  3.559725498e-02  1.839242176e+01 -1.839242176e+01                    E failure
+     9  2.752088716e-02  2.545463144e-02  6.442217091e-02  1.855330274e+01 -1.855330274e+01                            R
+    10  2.455330055e-02  2.833146133e-02  6.856520164e-02  1.853949523e+01 -1.853949523e+01                            R
+    11  2.531736883e-02  2.715768983e-02  4.056301522e-02  1.919278453e+01 -1.919278453e+01 -1.919278453e+01           R
+    12  2.295694361e-02  2.701447102e-02  1.805548658e-02  1.756608138e+01 -1.756608138e+01                    E failure
+    13  3.131166638e-02  2.548784159e-02  3.890776181e-02  1.741794244e+01 -1.741794244e+01                            R
+    14  2.624289201e-02  2.762055640e-02  6.115084168e-02  1.878756962e+01 -1.878756962e+01                   -C success
+    15  2.749208300e-02  2.980862146e-02  4.086990639e-02  1.908326176e+01 -1.908326176e+01                            R
+    16  2.174236815e-02  2.827461200e-02  3.883158315e-02  1.919598369e+01 -1.919598369e+01 -1.919598369e+01           R
+    17  1.713395502e-02  2.835360144e-02  3.013524520e-02  1.912695154e+01 -1.912695154e+01                    E failure
+    18  2.345832131e-02  2.920672579e-02  1.902549482e-02  1.735826219e+01 -1.735826219e+01                            R
+    19  2.554674933e-02  2.801709875e-02  5.061950497e-02  1.902298338e+01 -1.902298338e+01                   -C success
+
+
+================= SIMPLEX NELDER-MEAD: Finished =================
+
+Optimisation finished (Standard deviation small enough:   8.519914246e-02)
+
+Optimum found for these parameters:
+  panel_reflector_spacing        =   2.174236815e-02
+  panel_reflector_height         =   2.827461200e-02
+  panel_reflector_length         =   3.883158315e-02
+
+Optimum aim function value (at no. 16):  -1.919598369e+01
+No. of the last analysis: 19

@@ -1,0 +1,51 @@
+================  L O G - FILE - OPTFEKO  ================
+
+Version: 2018.0.2-10 of 2018-02-06
+Date: 2018-08-08 16:48:06
+File: Yagi_8_element_V0_0_Flat_Panel
+
+OPTIMISATION WITH FEKO
+
+================= Optimisation variables =================
+
+No.  Name                                  Beg.value          Minimum          Maximum
+  1 panel_reflector_spacing          1.809090000e-02  4.800000000e-03  5.168840000e-02
+  2 panel_reflector_height           3.101300000e-02  4.800000000e-03  2.067530000e-01
+  3 panel_reflector_length           1.033770000e-01  4.800000000e-03  2.067530000e-01
+
+
+
+=================== Optimisation goals ===================
+
+No.  Name                            Expression
+  1 panel_reflector_parameters.goals.maximise_directivity  max(total(direct(farfield(yagi_farfield))))
+
+
+======== Optimisation method: SIMPLEX NELDER-MEAD ========
+
+Maximum number of iterations:                      1000
+Base of the simplex:                    1.500000000e-01
+Reduction factor of the base:           5.000000000e-01
+Termination at minimal base:            5.000000000e-03
+Termination at standard deviation:      1.000000000e-02
+Standard reflection coefficient (R):    1.000000000e+00
+Contraction coefficient (-C, +C):       5.000000000e-01
+Expansion coefficient (E):              2.000000000e+00
+
+
+=========== SIMPLEX NELDER-MEAD: Intermediate results ===========
+
+ No.    panel_reflector  panel_reflector  panel_reflector  panel_reflector  Global goal      Global best aim  Operation
+     1  1.809090000e-02  3.101300000e-02  1.033770000e-01  1.964322120e+01 -1.964322120e+01 -1.964322120e+01
+     2  2.472192112e-02  3.815311679e-02  1.105171168e-01  1.841259340e+01 -1.841259340e+01                 
+     3  1.974865528e-02  5.957346716e-02  1.105171168e-01  2.032076890e+01 -2.032076890e+01 -2.032076890e+01
+     4  1.974865528e-02  3.815311679e-02  1.319374672e-01  1.949356888e+01 -1.949356888e+01                 
+     5  1.367021925e-02  4.767327251e-02  1.200372725e-01  2.086329032e+01 -2.086329032e+01 -2.086329032e+01           R
+     6  8.144368320e-03  5.243335037e-02  1.247973504e-01  2.058994028e+01 -2.058994028e+01                    E failure
+     7  1.459119441e-02  5.402004299e-02  9.068345904e-02  2.062635489e+01 -2.062635489e+01                            R
+     8  1.391581263e-02  7.649818843e-02  1.107815656e-01  2.223336689e+01 -2.223336689e+01 -2.223336689e+01           R
+     9  1.182826894e-02  9.924078265e-02  1.144838483e-01  2.350838068e+01 -2.350838068e+01 -2.350838068e+01   E success
+    10  1.168500614e-02  9.492145274e-02  1.395183319e-01  2.356227993e+01 -2.356227993e+01 -2.356227993e+01           R
+    11  1.023191201e-02  1.153721576e-01  1.639357683e-01  2.457929601e+01 -2.457929601e+01 -2.457929601e+01   E success
+    12  8.580978764e-03  1.298580736e-01  1.678437335e-01  2.501868730e+01 -2.501868730e+01 -2.501868730e+01           R
+    13  5.913561832e-03  1.565380161e-01  1.963748174e-01  Execution of FEKO failed for the current parameter set. No goal function values were computed.

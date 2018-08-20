@@ -1,0 +1,165 @@
+FEKO.CSV  Version 2018.0.2-352 from 2018-05-18 (Student Edition)
+          PREFEKO Version 2018.0.2-31 from 2018-03-28 [FEK: default 161; used 161] BINARY
+          CADFEKO version 2018.0.2-326038 (x64) from 2018-05-23                           
+          Copyright (c) 1999-2014 Altair Development S.A. (Pty) Ltd
+          Copyright (c) 2014-2018 Altair Engineering, Inc.
+          Intel(R) MKL version 2018.0.1 (build 20171007) on Intel(R) Advanced Vector Extensions (Intel(R) AVX) enabled processors, Intel(R) 64 architecture (1 thread)
+Computer: PC WIN64 EM64T MKL IMPI -- DESKTOP-97NENQM
+          Microsoft Windows 8.1 Professional  (Build 9600), Version 6.3.9600 x64 (SP 0.0)
+          Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz; GenuineIntel family 6 model 10 stepping 9 brand id 0
+          1 physical CPU with a total of 8 processors found (multi-core CPU with max. 4 cores per physical CPU)
+Threads:  OpenMP threading not used
+Date:     2018-08-19 13:50:11                     
+File:     Yagi_9_element_V0_0_Corner_Corner_masks_alternate
+Memory:   Limited to 256.000 MByte, reason 104
+          (for parallel runs memory limit is per process)
+          (installed memory 7.888 GByte, thereof free 3.466 GByte)
+MD5 Check:2174DCB8618A8631329F72B9EECD2442
+MD5 Total:C4A9E4DE60EBF74D08867F6662961F45
+ Licence:  Student Edition
+
+Number of parallel processes:     4 on 1 CPUs
+
+Master process    0 on machine: DESKTOP-97NENQM                using 1 threads
+Server process    1 on machine: DESKTOP-97NENQM                using 1 threads
+Server process    2 on machine: DESKTOP-97NENQM                using 1 threads
+Server process    3 on machine: DESKTOP-97NENQM                using 1 threads
+
+
+Spice Engine:  HyperSpice Version 2018-8333 from 2018-01-18
+
+
+                    XZ-plane is a geometric plane of symmetry
+
+          Mirroring in XZ-plane: 
+                              1998 metallic triangles
+
+
+                    XY-plane is a geometric plane of symmetry
+
+          Mirroring in XY-plane: 
+                              3996 metallic triangles
+
+          Surface of all triangles in m*m:     5.05613E-02
+
+
+                                DATA FOR MEMORY USAGE
+
+ Number of metallic triangles:            7992                                max. triangles:    MAXNDR    =     7992
+ Number of dielectric triangles:             0
+ Number of aperture triangles:               0
+ Number of RL-GO triangles:                  0
+ Number of windscreen triangles:             0
+ Number of FEM surface triangles:            0
+ Number of modal port triangles:             0
+ Number of metallic segments:                0                                max. segments:     MAXNSEG   =        0
+ Number of combined MoM/MTL segments:        0
+ Number of dielectr./magnet. cuboids:        0                                max. cuboids:      MAXNQUA   =        0
+ Number of tetrahedra:                       0                                max. tetrahedra:   MAXNTETRA =        0
+ Number of edges in PO region:               0                                max. edges:        MAXPOKA   =        0
+ Number of wedges in PO region:              0                                max. wedges:       MAXPOKL   =        0
+ Number of Fock regions:                     0                                max. Fock regions: MAXFOGE   =        0
+ Number of polygonal surfaces:               0                                max. surfaces:     MAXPOLYF  =        0
+                                                                              max. corner pts.:  MAXPOLYP  =        0
+ Number of UTD cylinders:                    0
+
+ Number of metallic edges (MoM):         11892  unknown:    11892 (electr.)   max. edges:        MAXNKA    =    11892
+                                             0  unknown:        0 (magnet.)
+ Number of metallic edges (PO):              0  unknown:        0 (electr.)
+                                                unknown:        0 (magnet.)
+ Number of dielectric edges (MoM):           0  unknown:        0 (electr.)
+                                             0                  0 (magnet.)
+ Number of dielectric edges (PO):            0  unknown:        0 (electr.)
+                                                unknown:        0 (magnet.)
+ Number of aperture edges (MoM):             0  unknown:        0 (magnet.) 
+ Number of edges FEM/MoM surface:            0  unknown:        0 (electr.)
+                                             0                  0 (magnet.)
+ Number of nodes between segments:           0  unknown:        0             max. nodes:        MAXNKNO   =        0
+ Number of connection points:                0  unknown:        0             max. conn.:        MAXNV     =        0
+ Number of dielectric cuboids:               0  unknown:        0             max. cuboids:      MAXNQUA   =        0
+ Number of magnetic cuboids:                 0  unknown:        0
+ Number of dielectric faces (VEP):           0  unknown:        0
+ Number of magnetic faces (VEP):             0  unknown:        0
+
+ Number of basis funct. for MoM:         11892  unknown:    11892             max. basisf.       MAXNZEILE =    11988
+ Number of basis funct. for PO:              0  unknown:        0             max. basisf.       MAXNKAPO  =        0
+
+ read from input file:
+PS       0    0    3    1    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from input file:
+CG      -1    0   -1    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00-1.000E+00-1.000E+00 0.000E+00 0.000E+00
+ read from input file:
+DI       0    0   -1    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 1.000E+03 0.000E+00 0.000E+00
+ read from input file:
+PW       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from input file:
+AE       0    8    2    0    2 1.000E+00 0.000E+00 5.000E+01 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from input file:
+FR       0    0    0    0    0 5.800E+09 0.000E+00 5.800E+09 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from input file:
+NC       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from input file:
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from input file:
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from input file:
+OF       1    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from input file:
+FF       1   37   73    0    0 0.000E+00 0.000E+00 5.000E+00 5.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ 
+ 
+      ==============
+      CONFIGURATION: StandardConfiguration1
+      ==============
+
+
+                                   DATA FOR DIELECTRIC MEDIA
+
+internal  relative     relative  conductivity   tan(delta)    tan(delta)    wavelength   mass density    volume     medium
+index  permittivity permeability   in S/m       (electric)    (magnetic)       in m       in kg/m^3      in m^3
+    0      1.00000      1.00000  0.00000E+00   0.00000E+00   0.00000E+00   5.16884E-02   1.00000E+03    infinite    Free space
+
+
+
+                    EXCITATION BY VOLTAGE SOURCE AT AN EDGE
+
+ Name:                          VoltageSource_Driven_YPos
+ Excitation index:              1
+ Frequency in Hz:               FREQ =    5.80000E+09
+ Wavelength in m:               LAMBDA =  5.16884E-02
+ Open circuit voltage in V:     |U0| =    1.00000E+00 
+ Phase in degrees:              ARG(U0) =        0.00
+ Attached to port:              Edge port
+ Port between triangle labels:
+   Union_Driven_Element.Face3_1_2  Union_Driven_Element.Face3_2_1
+   Union_Driven_Element.Face3_1_1  Union_Driven_Element.Face3_2_2
+ Port edge length in m:         1.50419E-02
+ Number of edges:               26
+ Indices of the edges:          -60   -82   -135   -139   -154   -160   -165   -166   -196   -220   -223   -225   -231   -3157   -3177   -3227   -3230   -3243   -3249   -3254   -3255   -3283   -3307   -3310   -3312   -3318
+
+
+                         DATA FOR THE GREEN'S FUNCTION
+
+                                   free space
+
+
+               All segments and triangles are perfectly conducting.
+ #################################################################
+ # Limits of the Student Edition have been exceeded              #
+ # Out-of-core matrix storage not allowed                        #
+ #################################################################
+ ERROR   35439: Out-of-core solution not allowed for the FEKO Student Edition
+
+Aborted: 2018-08-19 13:50:13                     
+Received message from server process  1: 
+ ERROR    1036: Not enough memory available for the matrix
+
+Aborted: 2018-08-19 13:50:13                     
+Received message from server process  2: 
+ ERROR    1036: Not enough memory available for the matrix
+
+Aborted: 2018-08-19 13:50:13                     
+Received message from server process  3: 
+ ERROR    1036: Not enough memory available for the matrix
+
+Aborted: 2018-08-19 13:50:13                     

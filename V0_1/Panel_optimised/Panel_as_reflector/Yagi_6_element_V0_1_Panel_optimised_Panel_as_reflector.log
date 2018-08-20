@@ -1,0 +1,62 @@
+================  L O G - FILE - OPTFEKO  ================
+
+Version: 2018.0.2-10 of 2018-02-06
+Date: 2018-08-06 12:57:16
+File: Yagi_6_element_V0_1_Panel_optimised_Panel_as_reflector
+
+OPTIMISATION WITH FEKO
+
+================= Optimisation variables =================
+
+No.  Name                                  Beg.value          Minimum          Maximum
+  1 panel_reflector_spacing          1.033770000e-02  5.168840000e-03  2.584420000e-02
+  2 panel_reflector_height           1.033770000e-02  5.168840000e-03  2.067530000e-01
+  3 panel_reflector_length           2.491380000e-02  1.033770000e-02  2.067530000e-01
+
+
+
+=================== Optimisation goals ===================
+
+No.  Name                            Expression
+  1 panel_reflector_parameters.goals.maximise_directivity  max(total(direct(farfield(yagi_farfield))))
+
+
+======== Optimisation method: SIMPLEX NELDER-MEAD ========
+
+Maximum number of iterations:                      1000
+Base of the simplex:                    1.500000000e-01
+Reduction factor of the base:           5.000000000e-01
+Termination at minimal base:            5.000000000e-03
+Termination at standard deviation:      1.000000000e-02
+Standard reflection coefficient (R):    1.000000000e+00
+Contraction coefficient (-C, +C):       5.000000000e-01
+Expansion coefficient (E):              2.000000000e+00
+
+
+=========== SIMPLEX NELDER-MEAD: Intermediate results ===========
+
+ No.    panel_reflector  panel_reflector  panel_reflector  panel_reflector  Global goal      Global best aim  Operation
+     1  1.033770000e-02  1.033770000e-02  2.491380000e-02  8.825694196e+00 -8.825694196e+00 -8.825694196e+00
+     2  1.326163745e-02  1.746477633e-02  3.185812953e-02  1.117803143e+01 -1.117803143e+01 -1.117803143e+01
+     3  1.106868436e-02  3.884600530e-02  3.185812953e-02  1.505959544e+01 -1.505959544e+01 -1.505959544e+01
+     4  1.106868436e-02  1.746477633e-02  5.269111811e-02  1.133762682e+01 -1.133762682e+01                 
+     5  1.326163745e-02  3.884600530e-02  5.269111811e-02  1.459702450e+01 -1.459702450e+01                            R
+     6  1.033770000e-02  4.597308163e-02  5.963544764e-02  1.506195534e+01 -1.506195534e+01 -1.506195534e+01           R
+     7  8.875731274e-03  6.022723428e-02  7.352410670e-02  1.428701993e+01 -1.428701993e+01                    E failure
+     8  1.204333018e-02  6.497861850e-02  4.343201207e-02  1.433612566e+01 -1.433612566e+01                            R
+     9  1.179966873e-02  5.310015795e-02  4.574678858e-02  1.477894552e+01 -1.477894552e+01                   +C success
+    10  8.875731274e-03  5.310015795e-02  3.880245906e-02  1.507987298e+01 -1.507987298e+01 -1.507987298e+01           R
+    11  6.682778185e-03  6.022723428e-02  3.185812953e-02  1.511328564e+01 -1.511328564e+01 -1.511328564e+01   E success
+
+
+================= SIMPLEX NELDER-MEAD: Finished =================
+
+Optimisation finished (Standard deviation small enough:   2.478512911e-02)
+
+Optimum found for these parameters:
+  panel_reflector_spacing        =   6.682778185e-03
+  panel_reflector_height         =   6.022723428e-02
+  panel_reflector_length         =   3.185812953e-02
+
+Optimum aim function value (at no. 11):  -1.511328564e+01
+No. of the last analysis: 11

@@ -1,0 +1,83 @@
+================  L O G - FILE - OPTFEKO  ================
+
+Version: 2018.0.2-10 of 2018-02-06
+Date: 2018-08-19 15:16:27
+File: Yagi_9_element_V0_0_Corner_Corner_masks_alternate
+
+OPTIMISATION WITH FEKO
+
+================= Optimisation variables =================
+
+No.  Name                                  Beg.value          Minimum          Maximum
+  1 panel_reflector_spacing          3.445890000e-02  4.800000000e-03  2.584420000e-01
+  2 panel_reflector_spacing_1        1.740320000e-02  4.800000000e-03  2.067530000e-01
+
+
+
+=================== Optimisation goals ===================
+
+No.  Name                            Expression
+  1 panel_reflector_parameters_masked.goals.mask_max  (log(total(direct(farfield(yagi_farfield)))))*(10)
+  2 panel_reflector_parameters_masked.goals.mask_min  (log(total(direct(farfield(yagi_farfield)))))*(10)
+  3 panel_reflector_parameters_masked.goals.maximise_directivity  max(total(direct(farfield(yagi_farfield))))
+  4 panel_reflector_parameters_masked.goals.mask_max_1  (log(total(direct(farfield(yagi_farfield)))))*(10)
+
+
+======== Optimisation method: SIMPLEX NELDER-MEAD ========
+
+Maximum number of iterations:                      1000
+Base of the simplex:                    1.500000000e-01
+Reduction factor of the base:           5.000000000e-01
+Termination at minimal base:            5.000000000e-03
+Termination at standard deviation:      1.000000000e-02
+Standard reflection coefficient (R):    1.000000000e+00
+Contraction coefficient (-C, +C):       5.000000000e-01
+Expansion coefficient (E):              2.000000000e+00
+
+
+=========== SIMPLEX NELDER-MEAD: Intermediate results ===========
+
+ No.    panel_reflector  panel_reflector  panel_reflector  panel_reflector  panel_reflector  panel_reflector  Global goal      Global best aim  Operation
+     1  3.445890000e-02  1.740320000e-02 composite goal   composite goal    1.914552927e+01 composite goal    4.386872765e+03  4.386872765e+03
+     2  7.120880376e-02  2.524359239e-02 composite goal   composite goal    1.174057821e+01 composite goal    3.451025319e+03  3.451025319e+03
+     3  4.430600704e-02  4.666394276e-02 composite goal   composite goal    8.963087252e+00 composite goal    3.540004540e+03                 
+     4  8.105591080e-02  5.450433515e-02 composite goal   composite goal    1.516170763e+01 composite goal    3.083542526e+03  3.083542526e+03           R
+     5  1.043544162e-01  7.305490273e-02 composite goal   composite goal    1.171609917e+01 composite goal    3.131047929e+03                    E failure
+     6  1.079587075e-01  3.308398478e-02 composite goal   composite goal    9.467573847e+00 composite goal    2.939689318e+03  2.939689318e+03           R
+     7  1.397850578e-01  2.629400580e-02 composite goal   composite goal    1.803115318e+01 composite goal    3.123743248e+03                    E failure
+     8  1.178058146e-01  6.234472754e-02 composite goal   composite goal    2.134793566e+01 composite goal    2.579339942e+03  2.579339942e+03           R
+     9  1.411043200e-01  8.089529512e-02 composite goal   composite goal    1.975228171e+01 composite goal    3.124085543e+03                    E failure
+    10  1.447086113e-01  4.092437718e-02 composite goal   composite goal    1.920848594e+01 composite goal    2.938217740e+03                            R
+    11  1.545557183e-01  7.018511994e-02 composite goal   composite goal    7.935434515e+00 composite goal    3.112815846e+03                            R
+    12  1.196079602e-01  4.235926857e-02 composite goal   composite goal    2.073517563e+01 composite goal    2.653941425e+03                   -C success
+    13  9.270516350e-02  6.377961894e-02 composite goal   composite goal    2.121875414e+01 composite goal    3.027792500e+03                            R
+    14  1.317077493e-01  4.663818762e-02 composite goal   composite goal    1.005714841e+01 composite goal    2.986896230e+03                   -C failure
+    15  1.361807664e-01  6.626492374e-02 composite goal   composite goal    1.329631443e+01 composite goal    3.083698210e+03                 
+    16  1.227293681e-01  7.697509892e-02 composite goal   composite goal    1.339707049e+01 composite goal    2.851244401e+03                 
+    17  1.043544162e-01  7.305490273e-02 composite goal   composite goal    1.171609917e+01 composite goal    3.131047929e+03                            R
+    18  1.282241789e-01  6.796241849e-02 composite goal   composite goal    9.607904391e+00 composite goal    3.177948399e+03                   -C failure
+    19  1.269932905e-01  6.430482564e-02 composite goal   composite goal    9.439365284e+00 composite goal    3.128681975e+03                 
+    20  1.202675913e-01  6.965991323e-02 composite goal   composite goal    1.848946445e+01 composite goal    2.662532515e+03                 
+    21  1.110801154e-01  6.769981514e-02 composite goal   composite goal    1.583304482e+01 composite goal    2.721849684e+03                            R
+    22  1.150584092e-01  6.685106776e-02 composite goal   composite goal    2.133502732e+01 composite goal    2.605071581e+03                   +C success
+    23  1.125966324e-01  5.953588207e-02 composite goal   composite goal    2.007828392e+01 composite goal    2.610215867e+03                            R
+    24  1.145143721e-01  6.206688986e-02 composite goal   composite goal    2.179553263e+01 composite goal    2.587270290e+03                   +C success
+
+
+================= SIMPLEX NELDER-MEAD: Finished =================
+
+Optimisation finished (Standard deviation small enough:   1.317759242e+01)
+
+Optimum found for these parameters:
+  panel_reflector_spacing        =   1.178058146e-01
+  panel_reflector_spacing_1      =   6.234472754e-02
+
+Optimum aim function value (at no. 8):   2.579339942e+03
+No. of the last analysis: 24
+
+Sensitivity of optimum value with respect to each optimisation parameter,
+i.e. the gradient of the aim function at 1% variation from the optimum:
+Parameter                          Sensitivity
+  panel_reflector_spacing          2.790304824e+04
+  panel_reflector_spacing_1        5.183442345e+03
+

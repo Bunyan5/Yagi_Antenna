@@ -1,0 +1,52 @@
+FEKO.CSV  Version 2018.0.2-352 from 2018-05-18 (Student Edition)
+          PREFEKO Version 2018.0.2-31 from 2018-03-28 [FEK: default 161; used 161] BINARY
+          CADFEKO version 2018.0.2-326038 (x64) from 2018-05-23                           
+          Copyright (c) 1999-2014 Altair Development S.A. (Pty) Ltd
+          Copyright (c) 2014-2018 Altair Engineering, Inc.
+          Intel(R) MKL version 2018.0.1 (build 20171007) on Intel(R) Advanced Vector Extensions (Intel(R) AVX) enabled processors, Intel(R) 64 architecture (1 thread)
+Computer: PC WIN64 EM64T MKL IMPI -- DESKTOP-97NENQM
+          Microsoft Windows 8.1 Professional  (Build 9600), Version 6.3.9600 x64 (SP 0.0)
+          Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz; GenuineIntel family 6 model 10 stepping 9 brand id 0
+          1 physical CPU with a total of 8 processors found (multi-core CPU with max. 4 cores per physical CPU)
+Threads:  OpenMP threading not used
+Date:     2018-08-07 14:12:23                     
+File:     Yagi_8_element_V0_0_optimum
+Memory:   Limited to 256.000 MByte, reason 104
+          (for parallel runs memory limit is per process)
+          (installed memory 7.888 GByte, thereof free 4.357 GByte)
+MD5 Check:D7C59BDFFC7DC6B2334F397AE807A065
+MD5 Total:7E70D2271FB241BCFA11B715F5803BF7
+ Licence:  Student Edition
+
+Number of parallel processes:     4 on 1 CPUs
+
+Master process    0 on machine: DESKTOP-97NENQM                using 1 threads
+Server process    1 on machine: DESKTOP-97NENQM                using 1 threads
+Server process    2 on machine: DESKTOP-97NENQM                using 1 threads
+Server process    3 on machine: DESKTOP-97NENQM                using 1 threads
+
+
+Spice Engine:  HyperSpice Version 2018-8333 from 2018-01-18
+
+
+                    XZ-plane is a geometric plane of symmetry
+
+          Mirroring in XZ-plane: 
+                              5390 metallic triangles
+
+
+                    XY-plane is a geometric plane of symmetry
+
+          Mirroring in XY-plane: 
+                             10780 metallic triangles
+
+          Surface of all triangles in m*m:     1.39600E-02
+ #################################################################
+ # Limits of the Student Edition have been exceeded              #
+ #   Number of MoM and PO basis functions
+ #   Current value: 32340
+ #   Maximum value: 30000
+ #################################################################
+ ERROR   33114: Limits of the FEKO Student Edition have been exceeded
+
+Aborted: 2018-08-07 14:12:31                     

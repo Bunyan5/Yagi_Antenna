@@ -1,0 +1,58 @@
+================  L O G - FILE - OPTFEKO  ================
+
+Version: 2018.0.2-10 of 2018-02-06
+Date: 2018-08-07 14:12:50
+File: Yagi_8_element_V0_0_optimum
+
+OPTIMISATION WITH FEKO
+
+================= Optimisation variables =================
+
+No.  Name                                  Beg.value          Minimum          Maximum
+  1 corner_reflector_spacing         5.168840000e-03  4.800000000e-03  1.550650000e-01
+  2 corner_reflector_length          1.033770000e-01  4.800000000e-03  1.550650000e-01
+  3 reflector_length                 2.377660000e-02  2.139900000e-02  1.033770000e-01
+
+
+
+=================== Optimisation goals ===================
+
+No.  Name                            Expression
+  1 panel_reflector_parameters.goals.maximise_directivity  max(total(direct(farfield(yagi_farfield))))
+
+
+======== Optimisation method: SIMPLEX NELDER-MEAD ========
+
+Maximum number of iterations:                      1000
+Base of the simplex:                    1.500000000e-01
+Reduction factor of the base:           5.000000000e-01
+Termination at minimal base:            5.000000000e-03
+Termination at standard deviation:      1.000000000e-02
+Standard reflection coefficient (R):    1.000000000e+00
+Contraction coefficient (-C, +C):       5.000000000e-01
+Expansion coefficient (E):              2.000000000e+00
+
+
+=========== SIMPLEX NELDER-MEAD: Intermediate results ===========
+
+ No.    corner_reflecto  corner_reflecto  reflector_lengt  panel_reflector  Global goal      Global best aim  Operation
+     1  5.168840000e-03  1.033770000e-01  2.377660000e-02  1.613788422e+01 -1.613788422e+01 -1.613788422e+01
+     2  2.641952009e-02  1.086896700e-01  2.667495999e-02  1.764230451e+01 -1.764230451e+01 -1.764230451e+01
+     3  1.048151002e-02  1.246276801e-01  2.667495999e-02  1.692566675e+01 -1.692566675e+01                 
+     4  1.048151002e-02  1.086896700e-01  3.537003994e-02  1.739275597e+01 -1.739275597e+01                 
+     5  2.641952009e-02  1.246276801e-01  3.537003994e-02  1.748840643e+01 -1.748840643e+01                            R
+     6  3.173219012e-02  1.033770000e-01  3.826839993e-02  1.726327838e+01 -1.726327838e+01                            R
+     7  2.641952009e-02  1.086896700e-01  3.537003994e-02  1.739275597e+01 -1.739275597e+01                   +C success
+
+
+================= SIMPLEX NELDER-MEAD: Finished =================
+
+Optimisation finished (Standard deviation small enough:   1.178033624e-01)
+
+Optimum found for these parameters:
+  corner_reflector_spacing       =   2.641952009e-02
+  corner_reflector_length        =   1.086896700e-01
+  reflector_length               =   2.667495999e-02
+
+Optimum aim function value (at no. 2):  -1.764230451e+01
+No. of the last analysis: 7

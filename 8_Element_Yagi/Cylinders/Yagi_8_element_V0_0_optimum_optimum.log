@@ -1,0 +1,53 @@
+================  L O G - FILE - OPTFEKO  ================
+
+Version: 2018.0.2-10 of 2018-02-06
+Date: 2018-08-07 13:39:39
+File: Yagi_8_element_V0_0_optimum_optimum
+
+OPTIMISATION WITH FEKO
+
+================= Optimisation variables =================
+
+No.  Name                                  Beg.value          Minimum          Maximum
+  1 corner_reflector_spacing         5.168840000e-03  4.800000000e-03  1.550650000e-01
+
+
+
+=================== Optimisation goals ===================
+
+No.  Name                            Expression
+  1 panel_reflector_parameters.goals.maximise_directivity  max(total(direct(farfield(yagi_farfield))))
+
+
+======== Optimisation method: SIMPLEX NELDER-MEAD ========
+
+Maximum number of iterations:                      1000
+Base of the simplex:                    1.500000000e-01
+Reduction factor of the base:           5.000000000e-01
+Termination at minimal base:            5.000000000e-03
+Termination at standard deviation:      1.000000000e-02
+Standard reflection coefficient (R):    1.000000000e+00
+Contraction coefficient (-C, +C):       5.000000000e-01
+Expansion coefficient (E):              2.000000000e+00
+
+
+=========== SIMPLEX NELDER-MEAD: Intermediate results ===========
+
+ No.    corner_reflecto  panel_reflector  Global goal      Global best aim  Operation
+     1  5.168840000e-03  1.755263510e+01 -1.755263510e+01 -1.755263510e+01
+     2  2.770859000e-02  1.849657244e+01 -1.849657244e+01 -1.849657244e+01
+     3  5.024834000e-02  1.698122857e+01 -1.698122857e+01                            R
+     4  1.643871500e-02  1.784091230e+01 -1.784091230e+01                   -C success
+     5  3.897846500e-02  1.872879516e+01 -1.872879516e+01 -1.872879516e+01           R
+     6  5.024834000e-02  1.698122857e+01 -1.698122857e+01                    E failure
+
+
+================= SIMPLEX NELDER-MEAD: Finished =================
+
+Optimisation finished (Standard deviation small enough:   1.642062567e-01)
+
+Optimum found for these parameters:
+  corner_reflector_spacing       =   3.897846500e-02
+
+Optimum aim function value (at no. 5):  -1.872879516e+01
+No. of the last analysis: 6

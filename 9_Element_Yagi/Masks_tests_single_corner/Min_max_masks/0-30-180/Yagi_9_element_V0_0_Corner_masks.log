@@ -1,0 +1,77 @@
+================  L O G - FILE - OPTFEKO  ================
+
+Version: 2018.0.2-10 of 2018-02-06
+Date: 2018-08-20 13:52:40
+File: Yagi_9_element_V0_0_Corner_masks
+
+OPTIMISATION WITH FEKO
+
+================= Optimisation variables =================
+
+No.  Name                                  Beg.value          Minimum          Maximum
+  1 panel_reflector_spacing          3.445890000e-02  4.800000000e-03  2.584420000e-01
+  2 panel_reflector_height           2.567880000e-02  2.139900000e-02  2.584420000e-01
+  3 panel_reflector_length           6.891780000e-02  4.800000000e-03  2.584420000e-01
+
+
+
+=================== Optimisation goals ===================
+
+No.  Name                            Expression
+  1 panel_reflector_parameters_masked.goals.mask_max  (log(total(direct(farfield(yagi_farfield)))))*(10)
+  2 panel_reflector_parameters_masked.goals.mask_min  (log(total(direct(farfield(yagi_farfield)))))*(10)
+  3 panel_reflector_parameters_masked.goals.maximise_directivity  max(total(direct(farfield(yagi_farfield))))
+  4 panel_reflector_parameters_masked.goals.mask_general  (log(total(direct(farfield(yagi_farfield)))))*(10)
+
+
+======== Optimisation method: SIMPLEX NELDER-MEAD ========
+
+Maximum number of iterations:                      1000
+Base of the simplex:                    1.500000000e-01
+Reduction factor of the base:           5.000000000e-01
+Termination at minimal base:            5.000000000e-03
+Termination at standard deviation:      1.000000000e-02
+Standard reflection coefficient (R):    1.000000000e+00
+Contraction coefficient (-C, +C):       5.000000000e-01
+Expansion coefficient (E):              2.000000000e+00
+
+
+=========== SIMPLEX NELDER-MEAD: Intermediate results ===========
+
+ No.    panel_reflector  panel_reflector  panel_reflector  panel_reflector  panel_reflector  panel_reflector  panel_reflector  Global goal      Global best aim  Operation
+     1  3.445890000e-02  2.567880000e-02  6.891780000e-02 composite goal   composite goal    1.322319905e+01 composite goal    2.531399688e+04  2.531399688e+04
+     2  7.032929564e-02  3.405953564e-02  7.788539891e-02 composite goal   composite goal    1.173767705e+01 composite goal    2.602845007e+04                 
+     3  4.342649891e-02  5.920174255e-02  7.788539891e-02 composite goal   composite goal    7.654925731e+00 composite goal    2.691023147e+04                 
+     4  4.342649891e-02  3.405953564e-02  1.047881956e-01 composite goal   composite goal    5.451161738e+00 composite goal    2.849158391e+04                 
+     5  5.538329746e-02  4.523384982e-02  4.500420291e-02 composite goal   composite goal    1.572392835e+01 composite goal    2.482512650e+04  2.482512650e+04           R
+     6  6.136169673e-02  5.082100691e-02  1.511220654e-02 composite goal   composite goal    1.119798698e+01 composite goal    2.528973061e+04                    E failure
+     7  6.335449649e-02  1.077971442e-02  4.998620230e-02  Parameter set does not adhere to boundary constraints. No goal function values were computed.
+     8  4.840849830e-02  4.709623552e-02  7.091059976e-02 composite goal   composite goal    1.214703186e+01 composite goal    2.708053422e+04                   -C failure
+     9  7.331849528e-02  4.942421764e-02  4.948800236e-02 composite goal   composite goal    7.790624448e+00 composite goal    2.623844516e+04                 
+    10  5.986709691e-02  6.199532109e-02  4.948800236e-02 composite goal   composite goal    1.795724335e+01 composite goal    2.246857843e+04  2.246857843e+04
+    11  5.986709691e-02  4.942421764e-02  6.293940073e-02 composite goal   composite goal    1.905902355e+01 composite goal    2.358201224e+04                 
+    12  4.342649891e-02  5.501137473e-02  5.546640164e-02 composite goal   composite goal    6.154314389e+00 composite goal    2.763131061e+04                            R
+    13  6.584549618e-02  5.082100691e-02  5.098260218e-02 composite goal   composite goal    1.394251867e+01 composite goal    2.440356779e+04                   -C success
+    14  6.833649588e-02  6.292651394e-02  6.393580061e-02 composite goal   composite goal    1.125596172e+01 composite goal    2.419753149e+04                            R
+    15  5.953496362e-02  6.540969487e-02  6.659286695e-02 composite goal   composite goal    2.090579941e+01 composite goal    2.191115995e+04  2.191115995e+04           R
+    16  5.637969733e-02  7.270403885e-02  7.439799933e-02 composite goal   composite goal    2.107080822e+01 composite goal    2.198795148e+04                    E failure
+    17  5.117627575e-02  5.495964179e-02  5.541104609e-02 composite goal   composite goal    1.413025416e+01 composite goal    2.516090089e+04                            R
+    18  6.404644085e-02  6.093479590e-02  6.180461198e-02 composite goal   composite goal    1.678947701e+01 composite goal    2.304058517e+04                   -C success
+    19  6.243190401e-02  7.613565694e-02  5.565092013e-02 composite goal   composite goal    1.619309641e+01 composite goal    2.340549336e+04                            R
+    20  6.179070223e-02  6.945779711e-02  5.747304028e-02 composite goal   composite goal    1.785616237e+01 composite goal    2.250114482e+04                   +C success
+    21  5.674873433e-02  7.030707948e-02  5.389799442e-02 composite goal   composite goal    1.855674723e+01 composite goal    2.191256825e+04                            R
+    22  5.564316100e-02  6.235026651e-02  5.584620221e-02 composite goal   composite goal    1.883100825e+01 composite goal    2.224694782e+04                            R
+    23  5.475080906e-02  7.004937282e-02  6.807004002e-02 composite goal   composite goal    1.921867257e+01 composite goal    2.219780633e+04                            R
+
+
+================= SIMPLEX NELDER-MEAD: Finished =================
+
+Optimisation finished (Standard deviation small enough:   1.803946970e+02)
+
+Optimum found for these parameters:
+  panel_reflector_spacing        =   5.953496362e-02
+  panel_reflector_height         =   6.540969487e-02
+  panel_reflector_length         =   6.659286695e-02
+
+Optimum aim function value (at no. 15):   2.191115995e+04
+No. of the last analysis: 23

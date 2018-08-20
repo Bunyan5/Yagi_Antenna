@@ -1,0 +1,107 @@
+<rawDataGraph autoUAxis="1" vAxisFont="1" autoVAxis="1" footerFont="1" titleText="Optimisation Progress" legendFont="1" titleFont="1" windowState="maximized" uGridLabelFont="1" vGridLabelFont="1" windowSize="380,380" version="1" uAxisText="Iteration number" vAxisText="" footerText="2018-08-11 : Yagi_8_element_V0_0_Corner_Panel_masks_optimum_optimum_optimum" vAxisUnits="" uAutoScale="1" uAxisFont="1" uAxisUnits="" uPrecision="" vPrecision="2">
+ <valueSeries autoLegend="0" label="panel_reflector_spacing" legend="panel_reflector_spacing" lineColour="0" markerColour="0" markerSymbol="-1" unwrap="0" lineWeight="1" smithMode="0" leftOffset="0" bottomFactor="1" dataScale="0" smithChartOffset="0" lineStyle="0" isdB="0" dbFactor="10" markerSkip="0" bottomOffset="0" independentVar="9" leftFactor="1" visible="1">
+  <coord0>1.000000000000E+00 3.445890000000E-02</coord0>
+  <coord1>2.000000000000E+00 4.108992111980E-02</coord1>
+  <coord2>3.000000000000E+00 3.611665527995E-02</coord2>
+  <coord3>4.000000000000E+00 3.611665527995E-02</coord3>
+  <coord4>5.000000000000E+00 3.003821925347E-02</coord4>
+  <coord5>6.000000000000E+00 2.451236832030E-02</coord5>
+  <coord6>7.000000000000E+00 2.322300310257E-02</coord6>
+  <coord7>8.000000000000E+00 1.739016045089E-02</coord7>
+  <coord8>9.000000000000E+00 8.855790676338E-03</coord8>
+  <coord9>1.000000000000E+01 1.337880199571E-02</coord9>
+  <coord10>1.100000000000E+01 1.363121740870E-02</coord10>
+  <coord11>1.200000000000E+01 8.835324561770E-03</coord11>
+  <coord12>1.300000000000E+01 5.087751583229E-03</coord12>
+ </valueSeries>
+ <valueSeries autoLegend="0" label="panel_reflector_height" legend="panel_reflector_height" lineColour="1" markerColour="0" markerSymbol="-1" unwrap="0" lineWeight="1" smithMode="0" leftOffset="0" bottomFactor="1" dataScale="0" smithChartOffset="0" lineStyle="0" isdB="0" dbFactor="10" markerSkip="0" bottomOffset="0" independentVar="9" leftFactor="1" visible="1">
+  <coord0>1.000000000000E+00 2.567880000000E-02</coord0>
+  <coord1>2.000000000000E+00 2.643536890053E-02</coord1>
+  <coord2>3.000000000000E+00 2.870507560212E-02</coord2>
+  <coord3>4.000000000000E+00 2.643536890053E-02</coord3>
+  <coord4>5.000000000000E+00 2.744412743457E-02</coord4>
+  <coord5>6.000000000000E+00 2.794850670159E-02</coord5>
+  <coord6>7.000000000000E+00 2.534254715532E-02</coord6>
+  <coord7>8.000000000000E+00 2.814465419432E-02</coord7>
+  <coord8>9.000000000000E+00 2.937758129148E-02</coord8>
+  <coord9>1.000000000000E+01 2.684634459958E-02</coord9>
+  <coord10>1.100000000000E+01 2.995045650835E-02</coord10>
+  <coord11>1.200000000000E+01 3.225441118486E-02</coord11>
+  <coord12>1.300000000000E+01 2.867913016658E-02</coord12>
+ </valueSeries>
+ <valueSeries autoLegend="0" label="panel_reflector_length" legend="panel_reflector_length" lineColour="2" markerColour="0" markerSymbol="-1" unwrap="0" lineWeight="1" smithMode="0" leftOffset="0" bottomFactor="1" dataScale="0" smithChartOffset="0" lineStyle="0" isdB="0" dbFactor="10" markerSkip="0" bottomOffset="0" independentVar="9" leftFactor="1" visible="1">
+  <coord0>1.000000000000E+00 6.891780000000E-02</coord0>
+  <coord1>2.000000000000E+00 7.605791678905E-02</coord1>
+  <coord2>3.000000000000E+00 7.605791678905E-02</coord2>
+  <coord3>4.000000000000E+00 9.747826715619E-02</coord3>
+  <coord4>5.000000000000E+00 8.557807250778E-02</coord4>
+  <coord5>6.000000000000E+00 9.033815036715E-02</coord5>
+  <coord6>7.000000000000E+00 8.716476512757E-02</coord6>
+  <coord7>8.000000000000E+00 1.064695253350E-01</coord7>
+  <coord8>9.000000000000E+00 1.252453880025E-01</coord8>
+  <coord9>1.000000000000E+01 1.037368880454E-01</coord9>
+  <coord10>1.100000000000E+01 1.131982773708E-01</coord10>
+  <coord11>1.200000000000E+01 1.262150334924E-01</coord11>
+  <coord12>1.300000000000E+01 1.252649768003E-01</coord12>
+ </valueSeries>
+ <valueSeries autoLegend="0" label="panel_reflector_parameters_masked.goals.mask_max" legend="panel_reflector_parameters_masked.goals.mask_max" lineColour="3" markerColour="0" markerSymbol="-1" unwrap="0" lineWeight="1" smithMode="0" leftOffset="0" bottomFactor="1" dataScale="0" smithChartOffset="0" lineStyle="0" isdB="0" dbFactor="10" markerSkip="0" bottomOffset="0" independentVar="9" leftFactor="1" visible="1">
+  <coord0>1.000000000000E+00 N/A</coord0>
+  <coord1>2.000000000000E+00 N/A</coord1>
+  <coord2>3.000000000000E+00 N/A</coord2>
+  <coord3>4.000000000000E+00 N/A</coord3>
+  <coord4>5.000000000000E+00 N/A</coord4>
+  <coord5>6.000000000000E+00 N/A</coord5>
+  <coord6>7.000000000000E+00 N/A</coord6>
+  <coord7>8.000000000000E+00 N/A</coord7>
+  <coord8>9.000000000000E+00 N/A</coord8>
+  <coord9>1.000000000000E+01 N/A</coord9>
+  <coord10>1.100000000000E+01 N/A</coord10>
+  <coord11>1.200000000000E+01 N/A</coord11>
+  <coord12>1.300000000000E+01 N/A</coord12>
+ </valueSeries>
+ <valueSeries autoLegend="0" label="panel_reflector_parameters_masked.goals.mask_min" legend="panel_reflector_parameters_masked.goals.mask_min" lineColour="4" markerColour="0" markerSymbol="-1" unwrap="0" lineWeight="1" smithMode="0" leftOffset="0" bottomFactor="1" dataScale="0" smithChartOffset="0" lineStyle="0" isdB="0" dbFactor="10" markerSkip="0" bottomOffset="0" independentVar="9" leftFactor="1" visible="1">
+  <coord0>1.000000000000E+00 N/A</coord0>
+  <coord1>2.000000000000E+00 N/A</coord1>
+  <coord2>3.000000000000E+00 N/A</coord2>
+  <coord3>4.000000000000E+00 N/A</coord3>
+  <coord4>5.000000000000E+00 N/A</coord4>
+  <coord5>6.000000000000E+00 N/A</coord5>
+  <coord6>7.000000000000E+00 N/A</coord6>
+  <coord7>8.000000000000E+00 N/A</coord7>
+  <coord8>9.000000000000E+00 N/A</coord8>
+  <coord9>1.000000000000E+01 N/A</coord9>
+  <coord10>1.100000000000E+01 N/A</coord10>
+  <coord11>1.200000000000E+01 N/A</coord11>
+  <coord12>1.300000000000E+01 N/A</coord12>
+ </valueSeries>
+ <valueSeries autoLegend="0" label="panel_reflector_parameters_masked.goals.maximise_directivity" legend="panel_reflector_parameters_masked.goals.maximise_directivity" lineColour="5" markerColour="0" markerSymbol="-1" unwrap="0" lineWeight="1" smithMode="0" leftOffset="0" bottomFactor="1" dataScale="0" smithChartOffset="0" lineStyle="0" isdB="0" dbFactor="10" markerSkip="0" bottomOffset="0" independentVar="9" leftFactor="1" visible="1">
+  <coord0>1.000000000000E+00 1.776594714434E+01</coord0>
+  <coord1>2.000000000000E+00 1.454587970106E+01</coord1>
+  <coord2>3.000000000000E+00 1.739844546160E+01</coord2>
+  <coord3>4.000000000000E+00 1.556830814366E+01</coord3>
+  <coord4>5.000000000000E+00 1.784054431233E+01</coord4>
+  <coord5>6.000000000000E+00 1.751360348314E+01</coord5>
+  <coord6>7.000000000000E+00 1.736475634629E+01</coord6>
+  <coord7>8.000000000000E+00 1.744860479145E+01</coord7>
+  <coord8>9.000000000000E+00 1.455288540781E+01</coord8>
+  <coord9>1.000000000000E+01 1.709522343163E+01</coord9>
+  <coord10>1.100000000000E+01 1.643692879270E+01</coord10>
+  <coord11>1.200000000000E+01 1.478334652921E+01</coord11>
+  <coord12>1.300000000000E+01 N/A</coord12>
+ </valueSeries>
+ <valueSeries autoLegend="0" label="global goal" legend="global goal" lineColour="6" markerColour="0" markerSymbol="-1" unwrap="0" lineWeight="1" smithMode="0" leftOffset="0" bottomFactor="1" dataScale="0" smithChartOffset="0" lineStyle="0" isdB="0" dbFactor="10" markerSkip="0" bottomOffset="0" independentVar="9" leftFactor="1" visible="1">
+  <coord0>1.000000000000E+00 2.488932796380E+04</coord0>
+  <coord1>2.000000000000E+00 2.842140644721E+04</coord1>
+  <coord2>3.000000000000E+00 2.555184569416E+04</coord2>
+  <coord3>4.000000000000E+00 2.609315141137E+04</coord3>
+  <coord4>5.000000000000E+00 2.411548369027E+04</coord4>
+  <coord5>6.000000000000E+00 2.333006216194E+04</coord5>
+  <coord6>7.000000000000E+00 2.340396987258E+04</coord6>
+  <coord7>8.000000000000E+00 2.220745614745E+04</coord7>
+  <coord8>9.000000000000E+00 2.308363533036E+04</coord8>
+  <coord9>1.000000000000E+01 2.291098325671E+04</coord9>
+  <coord10>1.100000000000E+01 2.210725607251E+04</coord10>
+  <coord11>1.200000000000E+01 2.257387402698E+04</coord11>
+  <coord12>1.300000000000E+01 N/A</coord12>
+ </valueSeries>
+</rawDataGraph>

@@ -1,0 +1,74 @@
+================  L O G - FILE - OPTFEKO  ================
+
+Version: 2018.0.2-10 of 2018-02-06
+Date: 2018-08-06 17:14:53
+File: Yagi_8_element_V0_0
+
+OPTIMISATION WITH FEKO
+
+================= Optimisation variables =================
+
+No.  Name                                  Beg.value          Minimum          Maximum
+  1 reflector_spacing                1.292210000e-02  5.168840000e-03  1.550650000e-02
+  2 director_spacing                 1.292210000e-02  5.168840000e-03  2.584420000e-02
+
+
+
+=================== Optimisation goals ===================
+
+No.  Name                            Expression
+  1 yagi_element_spacing.goals.maximise_directivity  max(total(direct(farfield(yagi_farfield))))
+
+
+======== Optimisation method: SIMPLEX NELDER-MEAD ========
+
+Maximum number of iterations:                      1000
+Base of the simplex:                    1.500000000e-01
+Reduction factor of the base:           5.000000000e-01
+Termination at minimal base:            5.000000000e-03
+Termination at standard deviation:      1.000000000e-02
+Standard reflection coefficient (R):    1.000000000e+00
+Contraction coefficient (-C, +C):       5.000000000e-01
+Expansion coefficient (E):              2.000000000e+00
+
+
+=========== SIMPLEX NELDER-MEAD: Intermediate results ===========
+
+ No.    reflector_spaci  director_spacin  yagi_element_sp  Global goal      Global best aim  Operation
+     1  1.292210000e-02  1.292210000e-02  1.478212341e+01 -1.478212341e+01 -1.478212341e+01
+     2  1.441991192e-02  1.372477654e-02  1.499952255e+01 -1.499952255e+01 -1.499952255e+01
+     3  1.332343749e-02  1.591772963e-02  1.017536583e+01 -1.017536583e+01                 
+     4  1.401857442e-02  1.072914691e-02  1.569305132e+01 -1.569305132e+01 -1.569305132e+01           R
+     5  1.436614289e-02  8.134855552e-03  1.492226355e+01 -1.492226355e+01                    E failure
+     6  1.551638634e-02  1.153182345e-02  Parameter set does not adhere to boundary constraints. No goal function values were computed.
+     7  1.357067158e-02  1.257453086e-02  1.562784835e+01 -1.562784835e+01                   -C success
+     8  1.316933409e-02  9.578901234e-03  1.498498354e+01 -1.498498354e+01                            R
+     9  1.410726746e-02  1.268830771e-02  1.538943270e+01 -1.538943270e+01                   -C success
+    10  1.348197855e-02  1.061537006e-02  1.545497049e+01 -1.545497049e+01                            R
+    11  1.363830078e-02  1.113360447e-02  1.671337671e+01 -1.671337671e+01 -1.671337671e+01  +C success
+    12  1.408620361e-02  9.288220522e-03  1.539064268e+01 -1.539064268e+01                            R
+    13  1.369955459e-02  1.175295328e-02  1.747334403e+01 -1.747334403e+01 -1.747334403e+01  -C success
+    14  1.331928094e-02  1.215741084e-02  1.672228845e+01 -1.672228845e+01                            R
+    15  1.338053476e-02  1.277675964e-02  1.513759101e+01 -1.513759101e+01                            R
+    16  1.357385927e-02  1.154439327e-02  1.742007040e+01 -1.742007040e+01                   -C success
+    17  1.395413292e-02  1.113993570e-02  1.674856488e+01 -1.674856488e+01                            R
+    18  1.379541993e-02  1.139430449e-02  1.726906265e+01 -1.726906265e+01                   +C success
+
+
+================= SIMPLEX NELDER-MEAD: Finished =================
+
+Optimisation finished (Standard deviation small enough:   1.059656390e-01)
+
+Optimum found for these parameters:
+  reflector_spacing              =   1.369955459e-02
+  director_spacing               =   1.175295328e-02
+
+Optimum aim function value (at no. 13):  -1.747334403e+01
+No. of the last analysis: 18
+
+Sensitivity of optimum value with respect to each optimisation parameter,
+i.e. the gradient of the aim function at 1% variation from the optimum:
+Parameter                          Sensitivity
+  reflector_spacing                2.773398086e+04
+  director_spacing                 2.047156885e+04
+
